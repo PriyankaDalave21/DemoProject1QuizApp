@@ -111,6 +111,7 @@ const App = () => {
       </View>
       <View
         style={{
+          
           flexDirection: 'row',
           justifyContent: 'space-between',
           alignItems: 'center',

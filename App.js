@@ -26,6 +26,7 @@ const App = () => {
           item.marked = x;
         }
       }
+      
     });
     let temp = [];
     tempData.map(item => {

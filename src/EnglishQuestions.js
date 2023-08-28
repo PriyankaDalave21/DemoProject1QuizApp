@@ -1,72 +1,105 @@
 export const englishData = [
-    {
-      question: "I'm very happy _____ in India. I really miss being there.",
-      Options: ['to live', 'to have lived', 'to be lived', 'to be living'],
-      correct: 1,
-      marked: -1,
-    },
-    {
-      question: "They didn't reach an agreement ______ their differences.",
-      Options: ['on account of', 'due', 'because', 'owing'],
-      correct: 2,
-      marked: -1,
-    },
-    {
-      question: "I wish I _____ those words. But now it's too late",
+  {
+    question: "To update react native with latest version what will you use?",
+    Options: ["none",
+      "react-native upgrade",
+      "both B & D ",
+      "react-native init",],
+    correct: 1,
+    marked: -1,
+  },
+  {
+    question: "JSX stands for ?",
+    Options: ["JavaScript XML",
+      "JavaScreenXML",
+      "JointScript XML",
+      "none",],
+    correct: 2,
+    marked: -1,
+  },
+  {
+    question: "________is used to create immutable stylesheet references",
+    Options: [
+      "Redux",
+      "Interaction manager",
+      "none",
+      "stylesheet",
+    ],
+    correct: 1,
+    marked: -1,
+  },
+  {
+    question: " React native was initially released in___",
+    Options: [
+      '2000',
+      '2008',
+      '2015',
+      '2014',
+    ],
+    correct: 3,
+    marked: -1,
+  },
+  {
+    question: 'React Hooks are introduced in which React version?',
+    Options: ["16.2",
+  "16.4",
+"16.6",
+"16.8",],
+    correct: 2,
+    marked: -1,
+  },
+  {
+    question: 'What is used in ReactJs to increase performance',
+    Options: ["Both B and c",
+      "Original DOM",
+      "Virtual DOM",
+      "None of the above",
+      
+    ],
+    correct: 4,
+    marked: -1,
+  },
+  {
+    question: "Which of the following is the correct name of React.js?",
+    Options: [
+      "React",
+      "React.js",
+      "ReactJS",
+      "All of the above",
+    ],
+    correct: 4,
+    marked: -1,
+  },
+  {
+    question:
+      'How can you create a new React Native project?',
+    Options: ["npx create-react-app new-app",
+      "npx react-native init new-app",
+      "npm create-react-native-app ",
+      "expo run new-app",],
+    correct: 1,
+    marked: -1,
+  },
+  {
+    question: "Which navigation library is commonly used in React Native?",
+    Options: ["React Router",
+      " React Native Navigation",
+      " React Native Router",
+      " React Navigation",
+
+    ],
+    correct: 1,
+    marked: -1,
+  },
+  {
+    question:"Which programming language is used in React Native?",
       Options: [
-        'not having said',
-        'have never said',
-        'never said',
-        'had never said',
+        "java",
+        "C#",
+        "JavaScript",
+        "C++"
       ],
-      correct: 1,
-      marked: -1,
-    },
-    {
-      question: 'The woman, who has been missing for 10 days, is believed _____.',
-      Options: [
-        'to be abducted',
-        'to be abducting',
-        'to have been abducted',
-        'to have been abducting',
-      ],
-      correct: 3,
-      marked: -1,
-    },
-    {
-      question: 'She was working on her computer with her baby next to _____.',
-      Options: ['herself', 'her', 'her own', 'hers'],
-      correct: 2,
-      marked: -1,
-    },
-    {
-      question: '_____ to offend anyone, she said both cakes were equally good.',
-      Options: [
-        'Not wanting',
-        'As not wanting',
-        "She didn't want",
-        'Because not wanting',
-      ],
-      correct: 4,
-      marked: -1,
-    },
-    {
-      question: "_____ in trying to solve this problem. It's clearly unsolvable.",
-      Options: [
-        "There's no point",
-        "It's no point",
-        "There isn't point",
-        "It's no need",
-      ],
-      correct: 4,
-      marked: -1,
-    },
-    {
-      question:
-        'Last year, when I last met her, she told me she _____ a letter every day for the last two months.',
-      Options: ['had written', 'has written', 'had been writing', 'wrote'],
-      correct: 1,
-      marked: -1,
-    },
-  ];
-  
+    correct: 1,
+    marked: -1,
+  },
+];

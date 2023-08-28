@@ -24,7 +24,7 @@ const QuestionItem = ({data, selectedOption}) => {
                   width: '90%',
                   height: 60,
                   elevation: 3,
-                  backgroundColor: data.marked == index + 1 ? 'purple' : '#fff',
+                  backgroundColor: data.marked == index + 1 ? 'green' : '#fff',
                   marginTop: 10,
                   marginBottom: 10,
                   alignSelf: 'center',

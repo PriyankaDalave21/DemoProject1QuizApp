@@ -1,4 +1,4 @@
-export const englishData = [
+export const reactData = [
   {
     question: "To update react native with latest version what will you use?",
     Options: ["none",
@@ -48,28 +48,28 @@ export const englishData = [
     correct: 2,
     marked: -1,
   },
-  {
-    question: 'What is used in ReactJs to increase performance',
-    Options: ["Both B and c",
-      "Original DOM",
-      "Virtual DOM",
-      "None of the above",
+  // {
+  //   question: 'What is used in ReactJs to increase performance',
+  //   Options: ["Both B and c",
+  //     "Original DOM",
+  //     "Virtual DOM",
+  //     "None of the above",
       
-    ],
-    correct: 4,
-    marked: -1,
-  },
-  {
-    question: "Which of the following is the correct name of React.js?",
-    Options: [
-      "React",
-      "React.js",
-      "ReactJS",
-      "All of the above",
-    ],
-    correct: 4,
-    marked: -1,
-  },
+  //   ],
+  //   correct: 4,
+  //   marked: -1,
+  // },
+  // {
+  //   question: "Which of the following is the correct name of React.js?",
+  //   Options: [
+  //     "React",
+  //     "React.js",
+  //     "ReactJS",
+  //     "All of the above",
+  //   ],
+  //   correct: 4,
+  //   marked: -1,
+  // },
   {
     question:
       'How can you create a new React Native project?',

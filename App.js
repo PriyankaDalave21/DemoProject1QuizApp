@@ -6,14 +6,16 @@ import {
   Dimensions,
   Animated,
   Modal,
+  StyleSheet,
 } from 'react-native';
 import React, {useRef, useState} from 'react';
-import {englishData} from './src/EnglishQuestions';
+import {reactData} from './src/ReactQuestions';
 import QuestionItem from './QuestionItem';
+
 const {height, width} = Dimensions.get('window');
 const App = () => {
   const [currentIndex, setCurrentIndex] = useState(1);
-  const [questions, setQuestions] = useState(englishData);
+  const [questions, setQuestions] = useState(reactData);
   const listRef = useRef();
   const [modalVisible, setModalVisible] = useState(false);
   const OnSelectOption = (index, x) => {
@@ -26,7 +28,7 @@ const App = () => {
           item.marked = x;
         }
       }
-      
+
     });
     let temp = [];
     tempData.map(item => {
@@ -71,7 +73,7 @@ const App = () => {
             marginLeft: 20,
             color: '#000',
           }}>
-          English Questions :{' ' + currentIndex + '/' + englishData.length}
+          English Questions :{' ' + currentIndex + '/' + reactData.length}
         </Text>
         <Text
           style={{
@@ -245,4 +247,8 @@ const App = () => {
   );
 };
 
+
+const styles=StyleSheet.create({
+  
+})
 export default App;
